@@ -6,12 +6,20 @@ body {
   font-weight: 500;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11em
+}
+
 h3 {
   font-size: 20px;
+  line-height: 1.2em
 }
 
 li p {
   font-weight: 400;
+  line-height: 1.5em
 }
 
 .word1,
@@ -21,6 +29,7 @@ li p {
   font-family: "Raleway", serif;
   font-size: 18px;
   font-weight: 700;
+  line-height: 1.17em
 }
 
 .word1 {
@@ -38,6 +47,7 @@ li p {
 nav li a {
   color: #2e2f42;
   text-decoration: none;
+  line-height: 1.5em
 }
 
 address li a {
@@ -45,6 +55,7 @@ address li a {
   text-decoration: none;
   font-style: normal;
   font-weight: 400;
+  line-height: 1.5em
 }
 
 .hero-image {
@@ -55,12 +66,15 @@ address li a {
   color: #ffffff;
   font-size: 56px;
   font-weight: 700;
+  line-height: 1.07em
 }
 button {
   background: #404bbf;
   color: #ffffff;
   cursor: pointer;
+  line-height: 0.67em
 }
+
 button:hover {
   background: #4d5ae5;
 }
@@ -76,4 +90,5 @@ footer {
 
 footer p {
   font-weight: 400;
+  line-height: 1.5em
 }
