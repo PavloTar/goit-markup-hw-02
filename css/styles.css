@@ -1,5 +1,79 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:black;
-    background-color: aliceblue;
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #2e2f42;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+li p {
+  font-weight: 400;
+}
+
+.word1,
+.word2-header,
+.word2-footer {
+  text-transform: uppercase;
+  font-family: "Raleway", serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.word1 {
+  color: #4d5ae5;
+}
+
+.word2-header {
+  color: #2e2f42;
+}
+
+.word2-footer {
+  color: #f4f4fd;
+}
+
+nav li a {
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+address li a {
+  color: #434455;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.hero-image {
+  background-color: #2e2f42;
+}
+
+.hero-image h1 {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+}
+button {
+  background: #404bbf;
+  color: #ffffff;
+  cursor: pointer;
+}
+button:hover {
+  background: #4d5ae5;
+}
+
+#about {
+  background: #f4f4fd;
+}
+
+footer {
+  background: #2e2f42;
+  color: #ffffff;
+}
+
+footer p {
+  font-weight: 400;
 }
