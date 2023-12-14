@@ -14,16 +14,19 @@ h2 {
     letter-spacing: 0.02em; 
 }
 
-h3 {
-  font-size: 20px;
-  line-height: 1.2em;
+.feature-header {
+    font-size: 20px;
+    line-height: 1.2em; 
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color:#2e2f42
 }
 
-li p {
-  font-weight: 400;
-  line-height: 1.5em;
-  letter-spacing: 0.02em;
-  color: #434455;
+.feature-description {
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .word1,
@@ -88,6 +91,10 @@ address li a {
 
 .hero-image-button:hover {
   background-color: #404BBF
+}
+
+.hero-image-button:focus {
+  background-color: #404BBF;
 }
 
 #about {
